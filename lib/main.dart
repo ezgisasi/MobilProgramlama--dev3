@@ -34,6 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Product(name: "Pendrive", description: "Pendrive is a useful storage medium", price: 100, image: "assets/images/pendrive.png"),
     Product(name: "Floppy Drive", description: "Floppy drive is a useful rescue storage medium", price: 20, image: "assets/images/floppy.png"),
   ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
